@@ -52,7 +52,7 @@ ul{
 	margin-bottom: 10px;
 }
 
-/*  WELCOME PAGE  */
+/*  WELCOME/LANDING PAGE  */
 	.index-welcome-link{
 		text-decoration: none;
 		font-style: none;
@@ -61,16 +61,21 @@ ul{
 
 	.index-welcome-link:hover{
 		color: #ffffff;
+	}
 
+	.landing{
+		padding-top: 20%;
 	}
 
 
 
 /*Header*/
 header {
+	width:100%;
 	position: fixed;
 	display:flex;
-	background-color: none;
+	justify-content:space-around;
+	background-color: lightblue;
 	color: #ffffff;
 	padding-top: 15px;
 	min-height: 50px;
@@ -88,7 +93,8 @@ header a {
 
 header li{
 	float: left;
-	display: inline;
+	display: block;
+	justify-content: space-around;
 	padding: 0 20px 0 20px;
 
 }
@@ -99,9 +105,9 @@ header .branding h1{
 	font-weight: normal;
 }
 
-header nav{
-	float: right;
-	margin-top: 10px;
+.navUl{
+display: flex;
+justify-content: space-around;
 }
 
 header .highlight, header .current a{
@@ -110,7 +116,7 @@ header .highlight, header .current a{
 }
 
 header a:hover{
-	color: #cccccc;
+	color: lavender;
 	font-weight: bold;
 }
 
