@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Data Structures | Stack</title>
+  </head>
+  <body>
+    <a href="../index.html">home.</a>
+    <h1 class="data__content__heading">Stack.</h1>
+
+    <div class="data__content">
+      <p>A stack of books is a great example of the stack data structure.</p>
+      <p>
+        If you make a stack of books, the top-most one was the Book you placed
+        on the stack last. If you remove it from the stacks top, you expose the
+        item that was placed in the stack just before it.
+      </p>
+      <p>Stacks are LIFO organized (Last in, First Out) type of service</p>
+      <h3>Good example:</h3>
+      <p>
+        Browser's back button : history of previously visited sites is place
+        into a stack and you traverse in a backwards order when hitting the back
+        button
+      </p>
+
+      <hr />
+
+      <h3>Typical JS functions associated with Stacks</h3>
+      <ul>
+        <li>push() - add data to stack</li>
+        <li>pop() - remove from stack</li>
+        <li>peek() - displaying top element of a stack</li>
+        <li>length() - how many elements are on the stack</li>
+      </ul>
+      <p>
+        The above methods are native to accessing data from an Array, so in many
+        ways and array can work/act like a stack.
+      </p>
+
+      <hr />
+      <h3>Code example: Palindrome</h3>
+      <p>let letters = []</p>
+      <p>const word = "racecar"</p>
+      <p>let testPalindrome = ""</p>
+
+      <p>Put letters of word into stack</p>
+      <code>
+        for(let i = 0; i < word.length; i++ ){ letters.push(word[i]) }</code
+      >
+
+      <p>Pop off the stack in reverse order</p>
+      <code
+        >for(let i = 0; i < word.length; i++ ){ testPalindrome += letters.pop()
+        }</code
+      >
+      <code
+        >if(testPalindrome === word) {console.log(`$:{word} is a
+        palindrome`)}</code
+      >
+    </div>
+  </body>
+</html>
