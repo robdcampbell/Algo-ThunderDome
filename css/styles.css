@@ -6,8 +6,6 @@ global
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4;
-
   background-color: rgba(144, 191, 219, 0.9);
   color: #ffffff;
 }
@@ -100,6 +98,13 @@ article > h2 {
   padding-bottom: 0.5rem;
 }
 
+.data__content__heading {
+  border-bottom: #f4f4f4 solid 1px;
+}
+
+.data__content {
+  max-width: 600px;
+}
 /* 
 ============================== 
 footer
