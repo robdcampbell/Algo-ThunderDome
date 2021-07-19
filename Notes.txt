@@ -1,0 +1,8 @@
+## NOTES/SCRATCHPAD TAKEN WHILE STUDYING DS,BIG O, ETC....
+
+
+////////////////////////////////////////////
+1) Big O Notation:
+
+The language used to explain how long a particular algorithm takes to complete its task, typically referring to its "Worst-case-scenario"
+
