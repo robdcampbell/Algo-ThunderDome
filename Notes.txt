@@ -8,4 +8,54 @@ The language used to explain how long a particular algorithm takes to complete i
 
 
 
-// PAT TEST
+
+////////////////////////////////////////////
+// What is good code?
+    1) Readable
+    2) Scalable
+
+    "Giving the proper/effecient instructions to sove problems"
+
+  RUNTIME: how long does it take to run a certain set of instructions (function or task). 
+  - how do we measure the effeciency?
+
+////////////////////////////////////////////
+Big O and Scalability
+
+  - Big O Notation is the language we use to talk about how long an algorithm needs to run.
+  - As we grow larger with our Dataset, how much does our algorithm slow down?
+    :: Alorithmic Efficeincy
+
+  - Rather than thinking of the literal time it takes to run an operation, we think of the number of times something has to run to "solve the problem" or rather, run the operation correctly. 
+
+O - operation
+n - number of operations
+
+////////////////////////////////////////////
+O(n): Linear Time 
+  - linear 1-to-1  
+  - 1 operation is run for each value in the dataset
+
+
+////////////////////////////////////////////
+O(1): Constant Time
+  - Runs a constant (same) number of operations no matter the size the input.
+    ex: O(1)  : 1 operation
+        O(2)  : 2 operations
+
+  If there is a constant number of operations, in terms of scalabilty the operation is always rounded down to O(1) hence the notation. 
+
+////////////////////////////////////////////
+O(1): Constant Time
+
+
+////////////////////////////////////////////
+Big O - General Guidlines:
+  - 1) Worst Case scenario
+  - 2) Remove Constants
+  - 3) Different terms for inputs
+    (ex:  exampleFunction(imnput1, input2 ) )
+  - 4) Drop Non Dominants
+
+////////////////////////////////////////////
+O(n^2): 
