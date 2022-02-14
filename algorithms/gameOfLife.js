@@ -18,6 +18,6 @@ for (let i = 0; i < cols; i++) {
 }
 
 // Random #, either 0 or 1
-//console.log(Math.floor(Math.random() * 2));
+console.log(Math.floor(Math.random() * 2));
 
 console.table(grid);
